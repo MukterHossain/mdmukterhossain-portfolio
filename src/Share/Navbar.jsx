@@ -35,7 +35,9 @@ const Navbar = () => {
               {navlink}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <div>
+            <img className="w-16 h-16 rounded-full" src="https://i.ibb.co.com/6tGXf3T/Logo.png" alt="Logo" />
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
