@@ -4,7 +4,7 @@ const Footer = () => {
       <footer className="footer bg-neutral text-neutral-content p-10">
         <aside>
         <div>
-            <img className="w-20 h-20 rounded-sm" src="https://i.ibb.co.com/6tGXf3T/Logo.png" alt="Logo" />
+            <img className="w-20 h-20 rounded-sm" src="https://i.ibb.co.com/5BHpPbK/Logo.png" alt="Logo" />
           </div>
           <p>
             ACME Industries Ltd.

@@ -5,13 +5,17 @@ import Footer from "../Share/Footer";
 const MainLayout = () => {
   return (
     <div>
-      <div className="max-w-screen-2xl mx-auto">
-        <Navbar></Navbar>
+      <div className="bg-slate-200 fixed w-full">
+        <div className="max-w-7xl mx-auto ">
+          <Navbar></Navbar>
+        </div>
       </div>
-      <div className="">
+      <div className="min-h-[calc(100vh-250px)] pt-24 max-w-7xl mx-auto">
         <Outlet></Outlet>
       </div>
-      <Footer></Footer>
+      <div className="max-w-7xl mx-auto ">
+        <Footer></Footer>
+      </div>
     </div>
   );
 };

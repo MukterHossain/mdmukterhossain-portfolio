@@ -9,7 +9,7 @@ const Navbar = () => {
   </>
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-slate-200 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,8 +35,8 @@ const Navbar = () => {
               {navlink}
             </ul>
           </div>
-          <div>
-            <img className="w-16 h-16 rounded-full" src="https://i.ibb.co.com/6tGXf3T/Logo.png" alt="Logo" />
+          <div className=" ">
+            <img className="w-10 lg:w-14 h-10 lg:h-14 bg-slate-100 rounded-full" src="https://i.ibb.co.com/BGPk5Vx/LogoSm1.png" alt="Logo" />
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
