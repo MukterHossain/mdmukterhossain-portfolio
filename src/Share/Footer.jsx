@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
-      <footer className="footer bg-neutral text-neutral-content p-10">
+      <footer className="footer bg-slate-700 text-neutral-content p-5">
         <aside>
-        <div>
-            <img className="w-20 h-20 rounded-sm" src="https://i.ibb.co.com/5BHpPbK/Logo.png" alt="Logo" />
-          </div>
+        <Link to={'/'}>
+            <img  className="w-20 h-20 rounded-sm" src="https://i.ibb.co.com/5BHpPbK/Logo.png" alt="Logo" />
+          </Link>
           <p>
             ACME Industries Ltd.
             <br />

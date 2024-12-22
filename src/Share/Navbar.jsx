@@ -1,12 +1,19 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
-  const navlink = <>
-  <li><Link to={'/'}>Home</Link></li>
-  <li><Link to={'/'}>Projets</Link></li>
-  <li><Link to={'/'}>Home</Link></li>
-  </>
+  const navlink = (
+    <>
+      <li>
+        <Link to={"/"}>Home</Link>
+      </li>
+      <li>
+        <Link to={"project"}>Projets</Link>
+      </li>
+      <li>
+        <Link to={"contact"}>Contact</Link>
+      </li>
+    </>
+  );
   return (
     <>
       <div className="navbar bg-slate-200 ">
@@ -35,14 +42,19 @@ const Navbar = () => {
               {navlink}
             </ul>
           </div>
-          <div className=" ">
-            <img className="w-10 lg:w-14 h-10 lg:h-14 bg-slate-100 rounded-full" src="https://i.ibb.co.com/BGPk5Vx/LogoSm1.png" alt="Logo" />
+          <div className="flex items-center">
+            <Link to={"/"} className="mr-2 md:mr-3">
+              <img
+                className="w-8 md:w-10 lg:w-14 h-8 md:h-10 lg:h-14 bg-slate-100 rounded-full"
+                src="https://i.ibb.co.com/k4Fy93r/Mlogo5.png"
+                alt="Logo"
+              />
+            </Link>
+            <h2 className="text-sm md:text-lg lg:text-2xl font-bold text-violet-700">MD. <span className="text-red-900">MUKTER</span> HOSSAIN</h2>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-           {navlink}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{navlink}</ul>
         </div>
         <div className="navbar-end">
           <div className="dropdown dropdown-end">
