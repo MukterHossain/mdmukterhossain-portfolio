@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "../../components/Banner";
+import PersonalInfo from "../../PersonalInfo/PersonalInfo";
 
 
 
@@ -13,8 +14,10 @@ const Home = () => {
         <Helmet>
             <title>MUKTER HOSSAIN || Home</title>
         </Helmet>
-        <div>
+        <div className="bg-gray-100">
         <Banner></Banner>
+        <PersonalInfo></PersonalInfo>
+        <p>Hie</p>
         </div>
             
         </>

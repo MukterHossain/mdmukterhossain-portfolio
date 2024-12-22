@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="footer bg-slate-700 text-neutral-content p-5">
         <aside>
         <Link to={'/'}>
-            <img  className="w-20 h-20 rounded-sm" src="https://i.ibb.co.com/5BHpPbK/Logo.png" alt="Logo" />
+            <img  className="w-20 h-20 rounded-sm" src="https://i.ibb.co.com/J2kv9jd/Mlogo4.png" alt="Logo" />
           </Link>
           <p>
             ACME Industries Ltd.
