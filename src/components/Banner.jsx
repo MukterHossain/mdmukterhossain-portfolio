@@ -1,23 +1,44 @@
+import { Typewriter, Cursor } from "react-simple-typewriter";
+
 const Banner = () => {
   return (
     <>
       <div
-        className="hero "
+        className="bg-no-repeat bg-cover "
         style={{
-          backgroundImage:
-            "url(https://i.ibb.co.com/5BHpPbK/Logo.png)",
+          backgroundImage: "url(https://i.ibb.co.com/27wny5G/bnner17.png)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md my-24 md:my-40 lg:my-60">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button className="btn btn-primary">Get Started</button>
+        <div className=" bg-gray-800 bg-opacity-70">
+          <div className="text-white">
+            <div className=" w-4/5 mx-auto grid grid-cols-1 sm:grid-cols-2 justify-between items-center">
+              <div className=" my-16 sm:my-20 md:my-32 lg:my-48 ">
+                <h1 className="mb-5  font-bold text-white text-center sm:text-start">
+                  <span className="text-xl md:text-3xl"> Hi, I am</span>
+                  <br />
+                  <span className="text-3xl md:text-5xl lg:text-[64px] "> <span className="bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+                  <span className="hover:text-blue-600">M</span>
+                  <span className="hover:text-pink-500">D.</span> MUKTER <br></br> HOSSAIN</span>
+                  </span></h1>
+                <p className="mb-5 text-center sm:text-start">
+                  <Typewriter
+                    words={[
+                      "I am a Web Developer",
+                      "A passionate Software Developer",
+                    ]}
+                    loop={5}
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  ></Typewriter>
+                  <Cursor></Cursor>
+                </p>
+              </div>
+              <div className="text-center sm:text-end">
+                
+                <button className="btn btn-primary">Go Project</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -14,10 +14,10 @@ const Home = () => {
         <Helmet>
             <title>MUKTER HOSSAIN || Home</title>
         </Helmet>
-        <div className="bg-gray-100">
+        <div className="">
         <Banner></Banner>
         <PersonalInfo></PersonalInfo>
-        <p>Hie</p>
+        <p>Hie jfjj</p>
         </div>
             
         </>
