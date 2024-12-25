@@ -4,8 +4,8 @@ import Footer from "../Share/Footer";
 
 const MainLayout = () => {
   return (
-    <div className="bg-gradient-to-tr from-[#22001f] via-[#250902] to-[#0b0120] ">
-      <div className="bg-slate-200 fixed w-full">
+    <div className="bg-gradient-to-r from-gray-50 to-gray-100 ">
+      <div className=" fixed w-full">
         <div className="max-w-7xl mx-auto 2xl:max-w-[1600px] z-40">
           <Navbar></Navbar>
         </div>

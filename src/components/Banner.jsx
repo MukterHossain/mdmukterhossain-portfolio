@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
     <>
       <div
-        className="bg-no-repeat bg-cover "
+        className="bg-no-repeat bg-cover border-2 border-red-900"
         style={{
           backgroundImage: "url(https://i.ibb.co.com/27wny5G/bnner17.png)",
         }}
@@ -35,8 +36,8 @@ const Banner = () => {
                 </p>
               </div>
               <div className="text-center sm:text-end">
+                <Link to={'/project'}><button className="btn btn-success text-white font-extrabold">Go Project</button></Link>
                 
-                <button className="btn btn-primary">Go Project</button>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ import MyInfoDetails from "../components/MyInfoDetails";
 
 const PersonalInfo = () => {
     return (
-        <div className="md:grid  md:grid-cols-3 justify-center gap-8 mt-12">
+        <div className="md:grid  md:grid-cols-3 justify-center gap-16 mt-12">
             <div className="col-span-1">
                 <MyInfo></MyInfo>
             </div>

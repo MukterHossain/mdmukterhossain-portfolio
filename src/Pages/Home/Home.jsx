@@ -1,6 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "../../components/Banner";
 import PersonalInfo from "../../PersonalInfo/PersonalInfo";
+import MySkills from "../../components/MySkills";
+import Edocation from "../../components/Edocation";
 
 
 
@@ -17,7 +19,8 @@ const Home = () => {
         <div className="">
         <Banner></Banner>
         <PersonalInfo></PersonalInfo>
-        <p>Hie jfjj</p>
+        <MySkills></MySkills>
+        <Edocation></Edocation>
         </div>
             
         </>

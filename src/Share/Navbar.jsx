@@ -1,18 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navlink = (
-    <>
-      <li>
-        <Link to={"/"}>Home</Link>
-      </li>
-      <li>
-        <Link to={"project"}>Projets</Link>
-      </li>
-      <li>
-        <Link to={"contact"}>Contact</Link>
-      </li>
-    </>
+      <>
+        <NavLink to='/' className={({ isActive }) => isActive ? 'py-1 px-3   font-bold text-green-800 ' : 'font-bold py-1 px-3   '}>Home</NavLink>
+        <NavLink to='/project' className={({ isActive }) => isActive ? 'py-1 px-3   font-bold text-green-800' : 'font-bold py-1 px-3    '}>Projets</NavLink>
+        <NavLink to='/contact' className={({ isActive }) => isActive ? 'py-1 px-3  font-bold text-green-800' : 'font-bold py-1 px-3  '}>Contact</NavLink>
+     </>
   );
   return (
     <>
@@ -57,7 +51,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navlink}</ul>
         </div>
         <div className="navbar-end">
-          <div className="dropdown dropdown-end">
+          <div className="bg-gray-200 border-2 border-red-900 rounded-md shadow-lg px-3 py-1 text-red-900 font-semibold">
             <a target="_blank"  href="https://drive.google.com/file/d/1TyhiXGkrGjeUmFpBMSiC1F8GgM6KwsQO/view?usp=sharing">Resume</a>
           </div>
         </div>
