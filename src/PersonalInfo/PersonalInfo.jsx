@@ -4,8 +4,8 @@ import MyInfoDetails from "../components/MyInfoDetails";
 
 const PersonalInfo = () => {
     return (
-        <div className="md:grid  md:grid-cols-3 justify-center gap-16 mt-12">
-            <div className="col-span-1">
+        <div className="md:grid  md:grid-cols-3 justify-center gap-16 my-12 mx-5 md:mx-0">
+            <div className="col-span-1 mb-6 md:mb-0">
                 <MyInfo></MyInfo>
             </div>
             <div className="col-span-2">

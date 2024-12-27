@@ -12,14 +12,29 @@ const Banner = () => {
       >
         <div className=" bg-gray-800 bg-opacity-70">
           <div className="text-white">
-            <div className=" w-4/5 mx-auto grid grid-cols-1 sm:grid-cols-2 justify-between items-center">
+            <div className=" w-4/5 mx-auto grid grid-cols-1 sm:grid-cols-2 justify-between items-center pb-5">
               <div className=" my-16 sm:my-20 md:my-32 lg:my-48 ">
                 <h1 className="mb-5  font-bold text-white text-center sm:text-start">
                   <span className="text-xl md:text-3xl"> Hi, I am</span>
                   <br />
                   <span className="text-3xl md:text-5xl lg:text-[64px] "> <span className="bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
                   <span className="hover:text-blue-600">M</span>
-                  <span className="hover:text-pink-500">D.</span> MUKTER <br></br> HOSSAIN</span>
+                  <span className="hover:text-rose-500">D</span> 
+                  <span className="hover:text-yellow-500">.</span> 
+                  <span className="hover:text-green-500"> M</span> 
+                  <span className="hover:text-orange-500">U</span> 
+                  <span className="hover:text-lime-500">K</span> 
+                  <span className="hover:text-teal-500">T</span> 
+                  <span className="hover:text-emerald-500">E</span> 
+                  <span className="hover:text-fuchsia-500">R</span> 
+                  <br></br>
+                  <span className="hover:text-orange-500">H</span>
+                  <span className="hover:text-green-500">O</span>
+                  <span className="hover:text-rose-500">S</span>
+                  <span className="hover:text-yellow-500">S</span>
+                  <span className="hover:text-purple-500">A</span>
+                  <span className="hover:text-blue-600">I</span>
+                  <span className="hover:text-amber-500">N</span></span>
                   </span></h1>
                 <p className="mb-5 text-center sm:text-start">
                   <Typewriter

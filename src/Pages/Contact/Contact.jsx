@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <>
-      <div className=" w-full md:w-3/5 lg:w-2/5 xl:w-1/4 mx-auto mt-8 sm:mt-12 md:mt-20 lg:mt-24 xl:mt-32  rounded-md shadow-xl  border-2 border-red-200  p-5 md:px-10 md:py-8 ">
+      <div className=" w-11/12 sm:w-4/5 md:w-3/5 lg:w-2/5 xl:w-1/4 mx-auto mt-8 my-12 sm:mt-12 md:mt-20 lg:mt-24 xl:mt-32  rounded-md shadow-xl  border-2 border-red-200  p-5 md:px-10 md:py-8 ">
         <h2 className="flex  items-center">
           <MdEmail size={25}></MdEmail>{" "}
           <span className="text-xl ml-2">mukter3075@gmail.com</span>

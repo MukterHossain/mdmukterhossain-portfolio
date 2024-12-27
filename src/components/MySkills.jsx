@@ -6,7 +6,7 @@ import { SiExpress } from "react-icons/si";
 
 const MySkills = () => {
   return (
-    <div className="rounded-md shadow-xl border-spacing-1 h-full border-2 border-red-900  p-5 md:px-10 md:py-8 my-12">
+    <div className="rounded-md shadow-xl border-spacing-1 h-full border-2 border-red-900  p-5 md:px-10 md:py-8 my-12 mx-5 md:mx-0">
       <div className="">
         <h1 className="mb-5  font-bold ">
           <span className="text-xl md:text-2xl lg:text-3xl">
