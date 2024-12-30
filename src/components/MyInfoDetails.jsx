@@ -9,7 +9,7 @@ const MyInfoDetails = () => {
             </span>
           </span>
         </h1>
-        <h1 className="md:text-lg text-justify">
+        <h1 className="md:text-lg text-justify text-gray-900">
           I am <span className="text-[16px] md:text-xl text-cyan-700 font-bold">MD. MUKTER HOSSAIN</span>, a passionate Frontend Developer with a strong foundation in building interactive and responsive web applications. My expertise includes HTML, CSS, Tailwind CSS, and JavaScript, enabling me to design visually appealing and user-friendly interfaces. I am proficient in React.js, leveraging it to create scalable components and manage state efficiently using tools like TanStack Query and Axios. Additionally, I have experience with secure authentication using JWT and integrating backends with Node.js and Express.js. With a solid understanding of CRUD operations, I ensure smooth data management and seamless functionality in dynamic web applications
         </h1>
       </div>
