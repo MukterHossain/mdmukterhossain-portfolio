@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="border-2 border-red-900 p-5  rounded-t-md mx-5 md:mx-0">
+      <div className="border-2 border-slate-200 p-5  rounded-t-md mx-5 md:mx-0">
         <div className="w-11/12 mx-auto flex flex-col justify-center gap-2 items-center text-white">
           <div>
             <div className="flex items-center">
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-sm text-white w-11/12 mx-auto text-center border-t-2 border-red-900 py-1 mt-1">
+        <p className="text-sm text-gray-600 w-11/12 mx-auto text-center border-t-2 border-slate-200 pt-3 mt-1">
           Copyright © {new Date().getFullYear()} - All right reserved by MD.
           MUKTER HOSSAIN
         </p>

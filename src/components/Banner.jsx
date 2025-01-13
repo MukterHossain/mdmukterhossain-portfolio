@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       <div
-        className="bg-no-repeat bg-cover border-2 border-red-900"
+        className="bg-no-repeat bg-cover border-2 border-gray-100"
         style={{
           backgroundImage: "url(https://i.ibb.co.com/27wny5G/bnner17.png)",
         }}
@@ -17,7 +17,7 @@ const Banner = () => {
                 <h1 className="mb-5  font-bold text-white text-center sm:text-start">
                   <span className="text-xl md:text-3xl"> Hi, I am</span>
                   <br />
-                  <span className="text-3xl md:text-5xl lg:text-[64px] "> <span className="bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+                  <span className="text-3xl md:text-5xl lg:text-[64px] "> <span className="bg-gradient-to-r from-orange-700 via-fuchsia-300 to-green-400 text-transparent bg-clip-text animate-gradient">
                   <span className="hover:text-blue-600">M</span>
                   <span className="hover:text-rose-500">D</span> 
                   <span className="hover:text-yellow-500">.</span> 
@@ -51,7 +51,7 @@ const Banner = () => {
                 </p>
               </div>
               <div className="text-center sm:text-end">
-                <Link to={'/project'}><button className="btn btn-success text-white font-extrabold">Go Project</button></Link>
+                <Link to={'/project'}><button className=" border border-slate-400 hover:bg-green-500 hover:text-white transition duration-200 bg-green-100 text-green-900 rounded-md box_shadow px-3 py-1  font-semibold">Go Project</button></Link>
                 
               </div>
             </div>

@@ -1,6 +1,6 @@
 const Edocation = () => {
   return (
-    <div className="rounded-md shadow-xl border-spacing-1 h-full border-2 border-red-900  p-5 md:px-10 md:pt-8 my-12 mx-5 md:mx-0">
+    <div className="rounded-md box_shadow border-spacing-1 h-full border-2 border-slate-200  p-5 md:px-10 md:pt-8 my-12 mx-5 md:mx-0">
       <div className="grid md:grid-cols-2">
         <div>
           <h1 className="mb-5  font-bold underline underline-offset-8">
@@ -25,10 +25,8 @@ const Edocation = () => {
           </h1>
           <div>
             <h1 className="text-xl  font-bold">Fron End Web Development </h1>
-            <p className="text-lg ">Institute: Programming Hero</p>
-            <p className="text-lg ">Batch: 09</p>
-            <p className="text-lg ">Duration: 2024-2024</p>
-            <a href="#" className="text-lg text-green-500 font-semibold">See Certificate</a>
+            <p className="text-lg mb-3">Institute: Programming Hero</p>
+            <a target="_blank"  href="https://drive.google.com/file/d/1raQscb9ThQE2G8OUDzVD6jrlKvqBPJ0y/view?usp=sharing" className="text-lg text-green-600 font-semibold border border-green-200 hover:bg-green-500 hover:text-white transition duration-200 bg-green-50 rounded-md  px-3 py-1  ">See Certificate</a>
           </div>
         </div>
       </div>

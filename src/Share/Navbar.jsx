@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar bg-slate-200 ">
-        <div className="navbar-start">
+        <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -51,7 +51,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navlink}</ul>
         </div>
         <div className="navbar-end">
-          <div className="bg-gray-200 border-2 border-red-900 rounded-md shadow-lg px-3 py-1 text-red-900 font-semibold">
+          <div className=" border border-slate-400 hover:bg-green-500 hover:text-white transition duration-200 bg-green-50 text-green-900 rounded-md box_shadow px-3 py-1  font-semibold">
             <a target="_blank"  href="https://drive.google.com/file/d/1TyhiXGkrGjeUmFpBMSiC1F8GgM6KwsQO/view?usp=sharing">Resume</a>
           </div>
         </div>

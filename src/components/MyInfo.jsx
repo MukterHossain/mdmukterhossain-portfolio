@@ -5,11 +5,11 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const MyInfo = () => {
   return (
     <div>
-      <div className=" rounded-md shadow-xl border-spacing-1 border-2 border-red-900  p-5 md:px-10 md:pt-8 ">
+      <div className=" rounded-md box_shadow border-spacing-1 border-2 border-slate-200  p-5 md:px-10 md:pt-8 ">
         <img
           src="https://i.ibb.co.com/3zj13YK/Mukter-Hossain1.jpg"
           alt=""
-          className="border-2 border-red-900 w-2/5 mx-auto rounded-full"
+          className="border-2 border-slate-200 w-2/5 mx-auto rounded-full"
         />
         <div className="flex flex-col justify-between p-3 ">
           <div className="space-y-2 text-center">
@@ -20,8 +20,8 @@ const MyInfo = () => {
                 </span>
               </span>
             </h1>
-            <p className="">mukter3075@gmail.com</p>
-            <p className="text-center font-semibold ">
+            <p className="text-gray-700">mukter3075@gmail.com</p>
+            <p className="text-center text-gray-700 font-semibold ">
               <Typewriter
                 words={[
                   "I am a Web Developer",

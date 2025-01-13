@@ -1,6 +1,6 @@
 const MyInfoDetails = () => {
   return (
-    <div className="rounded-md shadow-xl border-spacing-1 h-full border-2 border-red-900  p-5 md:px-10 md:pt-8">
+    <div className="rounded-md box_shadow border-spacing-1 h-full border-2 border-slate-200  p-5 md:px-10 md:pt-8">
       <div className="">
         <h1 className="mb-5  font-bold ">
           <span className="text-xl md:text-2xl ">
